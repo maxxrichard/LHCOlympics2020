@@ -32,11 +32,11 @@ In order to use K-Means clustering algorithm, we need to first feed in the no. o
 
 Once we get the optimal values for no. of clusters, we can easily run K-Means fit to label our dataset into these clusters. 
 
-An important thing to note, here I have used Phi & Eta as two features as inputs for my KMeans algorithm. We can also give Pt as the third feature or maybe give any other combination of two features. I have tried all these possible ways, it gives a good result, but if you plot it on Phi-Eta plane, it does not make any sense. You can also play around with it and try to optimize the Elbow curve.
+An important thing to note, here I have used Phi & Eta as two features as inputs for my K-Means algorithm. We can also give Pt as the third feature or maybe give any other combination of two features. I have tried all these possible ways, it gives a good result, but if you plot it on Phi-Eta plane, it does not make any sense. You can also play around with it and try to optimize the Elbow curve.
 
 And we can also give some weights to each hadron entry in an event. It can also help us to optimize our Elbow curve.
 
-For example, the elbow curve and the formation of cluster up to k=5 for the first event is shown below. As one can see that after K=5, there is a very less change in the sum of the squared distance from the cluster centroid as we move forward. So, the optimal numbers of clusters formed for this event should be 5.
+For example, the elbow curve and the formation of cluster up to K=5 for the first event is shown below. As one can see that after K=5, there is a very less change in the sum of the squared distance from the cluster centroid as we move forward. So, the optimal numbers of clusters formed for this event should be 5.
 <img src="img/event1.png">
 
 Let us take another example by looking at the second event, hereafter K=3, there is a very less change in the sum of the squared distance from the cluster centroid. So, the optimal numbers of clusters formed for this event should be 3. 
